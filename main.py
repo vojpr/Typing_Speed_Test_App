@@ -45,7 +45,7 @@ def reset_function():
                          font='Helvetica 18 normal')
 
 
-timer = ResettableTimer(6, result_function)
+timer = ResettableTimer(60, result_function)
 
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("blue")
