@@ -27,8 +27,8 @@ def result_function():
     timer.cancel()
     input_text = input_field.get(1.0, END)
     input_text_list = input_text.split()
-    for each in range(len(input_text_list)):
-        if input_text_list[each] == random_200_words_list[each]:
+    for number in range(len(input_text_list)):
+        if input_text_list[number] == random_200_words_list[number]:
             score += 1
     canvas.itemconfigure(canvas_text, text=f"Your result is {score} words per minute.", font='Helvetica 28 normal')
 
