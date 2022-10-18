@@ -24,7 +24,6 @@ def start_function():
 
 
 def timer_function():
-    """Starts and restarts the timer"""
     try:
         timer.start()
     except RuntimeError:
