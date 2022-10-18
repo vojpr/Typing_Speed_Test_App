@@ -46,7 +46,6 @@ def result_function():
 
 
 def reset_function():
-    """Resets the app to the start setting"""
     timer.cancel()
     input_field.delete(1.0, END)
     canvas.itemconfigure(canvas_text, text=WELCOME_SCREEN_TEXT, font='Helvetica 18 normal')
