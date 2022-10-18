@@ -1,4 +1,4 @@
 # Typing Speed Test App
-Tkinter program that test how many words can a user type correctly in one minute.
+Tkinter program that test how many words can a user type correctly in selected amount of time.
 
-<img width="703" alt="screenshot" src="https://user-images.githubusercontent.com/102183484/179053096-77b54cc3-788d-4dfd-a117-3b56977eab89.png">
+<img width="815" alt="typing_speed_test" src="https://user-images.githubusercontent.com/102183484/196512440-5f8dab5c-cbe7-4230-baa9-06c680e4cf44.png">
