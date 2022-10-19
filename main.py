@@ -6,11 +6,11 @@ from resettabletimer import ResettableTimer
 
 NUMBER_OF_WORDS = 150
 TIME_LIMIT = 60
-WELCOME_SCREEN_TEXT = f"Welcome to the typing speed test.\n\nThe average typing speed is around 40 words per minute. " \
-                      f"Let's see how fast you are.\nAfter clicking the 'Start Test' button, {NUMBER_OF_WORDS} random " \
-                      f"words selected from the 1000 most used English words will appear in the top box. At that " \
-                      f"moment the timer starts running and you have {TIME_LIMIT} seconds to type as many words as " \
-                      f"possible in the bottom box.\nWhen your time's up, your result will be displayed. "
+WELCOME_SCREEN_TEXT = f"\nWelcome to the typing speed test.\n\n\nAn average person can type 40 words per minute. " \
+                      f"Let's check out your speed.\n\n{NUMBER_OF_WORDS} randomly chosen words from the 1000 most " \
+                      f"frequently used English words will be displayed in this box when you click the 'Start Test' " \
+                      f"button. At that moment the timer starts running and you have {TIME_LIMIT} seconds to type as " \
+                      f"many words as you can in the bottom box.\nWhen your time's up, your result will be displayed. "
 
 
 def start_function():
