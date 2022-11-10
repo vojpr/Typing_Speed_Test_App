@@ -9,7 +9,7 @@ WELCOME_SCREEN_TEXT = f"\nWelcome to the typing speed test.\n\n\nAn average pers
                       f"Let's check out your speed.\n\n{NUMBER_OF_WORDS} randomly chosen words from the 1000 most " \
                       f"frequently used English words will be displayed in this box when you click the 'Start Test' " \
                       f"button. At that moment the timer starts running and you have {TIME_LIMIT} seconds to type as " \
-                      f"many words as you can in the bottom box.\nWhen your time's up, your result will be displayed. "
+                      f"many words as you can in the bottom box.\nWhen your time's up, your result will be displayed here."
 
 # Set up ResettableTimer
 timer = ResettableTimer(TIME_LIMIT, lambda: result_function(timer, input_field, canvas, canvas_text, TIME_LIMIT))
